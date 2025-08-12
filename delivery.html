@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Delivery - STUROX</title><link rel="stylesheet" href="assets/styles.css"></head>
+<body><div class="container">
+  <h2>Delivery Details</h2>
+  <form id="deliveryForm" action="order.html" method="get">
+    <label>Full Name:<input required name="d_fullname"></label>
+    <label>Phone Number:<input required name="d_phone" pattern='[0-9]{10}'></label>
+    <label>Full Address:<textarea required name="d_address"></textarea></label>
+    <label>Pincode:<input required name="d_pin" pattern='[0-9]{4,6}'></label>
+    <button class="btn" type="submit">Continue</button>
+  </form>
+  <p><a href="index.html">&larr; Back to Home</a></p>
+</div><script src="assets/app.js"></script></body></html>
